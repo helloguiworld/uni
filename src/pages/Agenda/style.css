@@ -1,0 +1,34 @@
+main.agenda{
+    padding-top: 80px;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.materias{
+    padding: 20px 200px;
+    width: 100vw;
+    background: #dee8f1;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+div.calendario{
+    width: calc(100vw - 100px);
+}
+
+@media (max-width: 1000px) {
+    div.materias{
+        padding: 20px 100px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    div.materias{
+        padding: 20px 0;
+        grid-template-columns: 1fr;
+    }
+}

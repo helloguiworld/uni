@@ -1,0 +1,38 @@
+div.evento{
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    background: #0ab899;
+    color: #fff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 100px 300px;
+    grid-gap: 30px;
+}
+div.evento-data{
+    padding: 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p.dia{
+    font-size: 5em;
+}
+p.mes{
+    text-align: center;
+    font-size: 1em;
+}
+div.evento-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+p.nome-evento{
+    font-size: 2em;
+    color: #4b0d60;
+}
+a.link{
+    font-size: 1.2em;
+    color: #1e0027;
+}

@@ -1,0 +1,20 @@
+div.load-screen{
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e0027;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+div.load-screen > img{
+    height: 20%;
+}
+
+div.load-screen-hide{
+    top: -100vh;
+}

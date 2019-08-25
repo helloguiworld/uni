@@ -1,0 +1,48 @@
+div.boton{
+    margin: 10px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a.boton-img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+a.boton-img:hover{
+    box-shadow: 0px 0px 20px 10px #c2d1dff0;
+}
+
+#icmc_jr{
+    background-image: url(../../imagens/icmc_jr.jpg);
+}
+
+#semcomp{
+    background-image: url(../../imagens/semcomp.jpg);
+}
+#pet{
+    background-image: url(../../imagens/pet.jpg);
+}
+#gema{
+    background-image: url(../../imagens/gema.jpg);
+}
+#sacim{
+    background-image: url(../../imagens/sacim.jpg);
+}
+#ucl_sanca{
+    background-image: url(../../imagens/ucl_sanca.jpg);
+}
+
+p.boton-title{
+    font-size: 1.5em;
+}
+p.boton-title, p.boton-info{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+div.card{
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #dee8f180;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+div.foto_perfil{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(../../imagens/perfil.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.description{
+    font-size: 1.2em;
+    margin-left: 20px;
+    color: #1e0027;
+}

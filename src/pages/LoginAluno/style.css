@@ -1,0 +1,14 @@
+main.login-aluno{
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #1e0027, #640e82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main.login-aluno > p{
+    font-size: 3em;
+    margin-bottom: 50px;
+}

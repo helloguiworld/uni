@@ -1,0 +1,98 @@
+:root{
+    --header-height: 80px;
+    --header-height-mobile: 80px;
+    --header-nav-text-padding: 20px;
+}
+
+header{
+    z-index: 1;
+    width: 100vw;
+    height: var(--header-height);
+    padding: 0 200px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e0027;
+}
+header > a{ 
+    height: 100%;
+    overflow-y: hidden;
+}
+header > a > img{ height: 100% }
+button.btn-menu-mobile-show{
+    cursor: pointer;
+    font-size: 1.8em;
+    height: calc(var(--header-height-mobile) - 30px);
+    width: calc(var(--header-height-mobile) - 30px);
+    border: none;
+    border-radius: 3px;
+    background: #8ca3b8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.btn-menu-mobile-show > i{ overflow-y: hidden}
+nav.menu-mobile{
+    font-size: 2em;
+    position: fixed;
+    left: 0;
+    bottom: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background: #3f0b50f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+nav.menu-mobile-show{
+    bottom: 0;
+}
+nav.menu-mobile > a{
+    color: #fff;
+    transition: .3s;
+}
+nav.menu-mobile > a:hover{
+    color: #1e0027
+}
+nav.menu-mobile > a.menu-btn-home{
+    color: #0ab899;
+}
+nav.menu-mobile > a.menu-btn-sair{
+    color: #b20a1e;
+}
+button.btn-menu-mobile-hide{
+    border-radius: 5px;
+    text-decoration: none;
+    background: #8ca3b8;
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    bottom: 40px;
+}
+.btn-menu-mobile-hide > i{
+    font-size: 50px;
+    overflow-y: hidden;
+}
+.wkoff{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+@media (max-width: 1000px) {
+    header{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    header{
+        padding: 0 15px;
+    }
+}

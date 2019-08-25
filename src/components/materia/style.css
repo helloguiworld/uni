@@ -1,0 +1,78 @@
+div.aux-materia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.materia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.cor-materia{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+button.materia > p{
+    margin-left: 10px;
+}
+
+
+div.materia-info-hide{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    bottom: 100vh;
+    left: 0;
+    color: #1e0027;
+    background: #0ab899;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+div.materia-info-show{
+    bottom: 0;
+}
+p.materia-nome{
+    font-size: 2em;
+}
+p.materia-sala, p.materia-deh,p.materia-faltas, p.materia-media{
+    font-size: 1.5em;
+}
+a.materia-duvidas, a.materia-material{
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background: #ffffff;
+    color: #1e0027;
+    font-size: 1.8em;
+    transition: .5s;
+}
+a.materia-duvidas:hover, a.materia-material:hover{
+    background: #1e0027;
+    color: #fff;
+}
+button.btn-menu-mobile-hide{
+    border-radius: 5px;
+    text-decoration: none;
+    background: transparent;
+    color: #1e0027;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    bottom: 40px;
+    transition: .5s;
+}
+button.btn-menu-mobile-hide:hover{
+    background: #1e0027;
+    color: #ffffff;
+}
+.btn-menu-mobile-hide > i{
+    font-size: 50px;
+    overflow-y: hidden;
+}
